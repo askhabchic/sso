@@ -25,5 +25,5 @@ tasks:
   run:
     desc: "Run the application"
     cmds:
-      - go run main.go
+      -  go run sso/cmd/sso/main.go --config=./sso/cmd/config/local.yaml
 
